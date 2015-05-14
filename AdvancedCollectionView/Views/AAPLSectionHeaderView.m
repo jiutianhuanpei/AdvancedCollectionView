@@ -91,7 +91,7 @@
     UIEdgeInsets padding = self.padding;
     NSMutableArray *constraints = [NSMutableArray array];
     NSDictionary *metrics = @{
-                              @"TopMargin" : @(padding.top),
+                              @"TopMargin" : @(padding.top - 10),
                               @"LeftMargin" : @(padding.left),
                               @"BottomMargin" : @(padding.bottom),
                               @"RightMargin" : @(padding.right)
